@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="./style.css">
-    <!-- <script defer src="../Task_2/app.js"></script> -->
-    <!-- <script defer src="../Task_3/app.js"></script> -->
+    <!-- <script defer src="../Task_2/app.js"></script>
+    <script defer src="../Task_3/app.js"></script> -->
     <!-- <script defer src="../Task_4/app.js"></script> -->
-    <!-- <script defer src="../Task_5/app.js"></script> -->
+    <script defer src="../Task_5/app.js"></script>
     <!-- <script defer src="../Task_6/app.js"></script> -->
     <title>Dom Practical - Tasks 1 to 6</title>
   </head>
@@ -16,7 +16,41 @@
     <a href="https://codepen.io/andrushka/pen/rNdQmOd">Codepen Link to animal pictures</a><br />
     <a href="#">Completed tasks Codepen Link</a>
     <main class="container">
-      
+      <form>
+        <fieldset>
+        <legend>Filters</legend>
+        <input checked type="radio" name="animalType" id="all" value="all">
+        <label for="all">Show All</label>
+        <input type="radio" name="animalType" id="bear" value="bear">
+        <label for="bear">Bear</label>
+        <input type="radio" name="animalType" id="dolphin" value="dolphin">
+        <label for="dolphin">Dolphin</label>
+        <input type="radio" name="animalType" id="duck" value="duck">
+        <label for="duck">Duck</label>
+        <input type="radio" name="animalType" id="frog" value="frog">
+        <label for="frog">Frogs</label>
+      </fieldset>
+      <label for="search">Search</label>
+      <input type="search" name="search" id="search">
+      </form>
+      <div id="results">
+      <img animal="bear" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/158109/kodiak-brown-bear-adult-portrait-wildlife-158109.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Bear on a Body of Water " >
+      <img animal="bear" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/35435/pexels-photo.jpg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Bear" >
+      <img animal="frog" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/1046494/pexels-photo-1046494.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Closeup Photo of Blue Frog on Green Surface">
+      <img animal="dolphin" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/3354346/pexels-photo-3354346.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Dolphins Jumping Out from Ocean">
+      <img animal="frog" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/103796/pexels-photo-103796.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Green Frog">
+      <img animal="dolphin" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/2347462/pexels-photo-2347462.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Swimming Dolphins">
+      <img animal="frog" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/3180755/pexels-photo-3180755.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Selective Focus Photo of Red and Blue Frog on Ground">
+      <img animal ="duck" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Duckling on Black Soil during Daytime">
+      <img animal ="duck" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/660266/pexels-photo-660266.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Depth of Field Photography of Mallard Duck on Body of Water">
+      <img animal="bear" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/1083502/pexels-photo-1083502.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Brown Bear on Brown Wood">
+      <img animal="bear" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/162340/bear-bavarian-bear-wild-brown-bear-162340.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Grizzly Bear Walking Beside Pond">
+      <img animal="frog" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/63650/frog-toad-eyes-animal-63650.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Orange and Black Frog">
+      <img animal="dolphin" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/4886378/pexels-photo-4886378.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Single dolphin floating underwater near water surface against blue sea in daylight in tropical lagoon in summer">
+      <img animal="dolphin" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/2922672/pexels-photo-2922672.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Split-shot Photo of Dolphins Undewater ">
+      <img animal ="duck" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/157465/pexels-photo-157465.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="2 Yellow Ducklings Closeup Photography">
+      <img animal ="duck" class="imageFilter" loading="lazy" src="https://images.pexels.com/photos/221429/pexels-photo-221429.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=350" alt="Black and Gray Duck on Body of Water">
+    </div>
     </main>
   </body>
 </html>
